@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Add student</p>
+
+<form id="addStudent" action="/student.html">
+  First name: <input type="text" name="fname" required><br>
+  Last name: <input type="text" name="lname" required><br>
+  Age: <input type="number" name="age" required><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+    document.getElementById("myForm").submit();
+}
+</script>
+
+</body>
+</html>
